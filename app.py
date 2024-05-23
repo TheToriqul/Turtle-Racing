@@ -5,7 +5,7 @@ def get_number_of_racers():
         if racers.isdigit():
             racers = int(racers)
         else:
-            print("Please enter a number between 2 and 10.")
+            print("Please enter a numeric number between 2 and 10.")
             continue
 
         print("Enter the number of players")
